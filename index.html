@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="./styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product landing page</title>
+</head>
+<body>
+  <div id="page-wrapper">
+    <header>
+      <div class="logo">
+        <img src="https://i.ibb.co/k9pJZQx/pngkey-com-generic-logo-png-1416946.png" alt="logo">
+      </div>
+      <nav class="nav-bar">
+        <ul>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#catalogue" class="nav-link">Catalogue</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class = "solid-container" id="main">
+      <section id="about">
+        <h2>Hand-made herbal remedies
+        </h2>
+        <div class="video-embed">
+        <iframe id = "video" src = "https://www.youtube.com/embed/tBuO-gs-ROE" frameborder='0' allowfullscreen>
+        </iframe>
+      </section>
+      <section id="catalogue">
+        <div class = 'flex-wrap'>
+          <div class="product btn " id="product1">
+            <img id="daises" src="https://lh3.googleusercontent.com/KBW-2389V8i7voVm1jcZRK2W_KgnmvYghISarBGYdT5NATKACcsL2ol-TEweAdYw72b95KJ41ETejfvLh2UfhgrHLg87dGvzn0NZfOirMJNTvcyc1A58Z4ZkvE-XuaZV7mKmm7_KHiU=w600-h315-p-k" alt="Daisy remedy">
+           <h3>Homemade item 1</h3>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+         </div>
+         <div class="product btn" id="product2">
+           <img id="herbal-remedy"src="https://lh3.googleusercontent.com/-DvPUsgfA9IhOcXambp-GrNTzVFfbiBVa7talGZv5jvb62XT_G9om3yGoW8yoOjTZ3jL2ng1BZv-e8lA5Osav_lfChbNa0eoBs1K4dugduvlT3ydL0kqcbxNyEL3Ys3SCNJl2PyEaIw=w2400" alt="herbal remedy">
+           <h3>Homemade item 2</h3>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+         </div>
+         <div class="product btn" id="product3">
+           <img id="herbs" src="https://lh3.googleusercontent.com/4ZejnHz3hpBPkWftm2cABhYEAmLBSa8awjIgNihx51cLzXurxMKUPHI9_Qb7inD4DUDpVINrTFLUi2daFsn0JmHRmQvUyOdNRx9TBAPy0b_507lw9gzAuy175NuvwVVnzwznKu6HsR8=w2400" alt="herbs">
+           <h3>Homemade item 3</h3>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+         </div>
+        </div>
+      </section>
+      <br>
+      <section id = "contact">
+        <form id = "form" action= " https://www.freecodecamp.com/email-submit">
+          <label for = 'email' id="email-label">To find out more, enter your email below             <br>
+            <input 
+                 id="email" 
+                 name="email"
+                 type="email"
+                 placeholder="Enter your email here."
+                 />
+            <input
+                 id="submit"
+                 name="email"
+                 type="submit"
+                 value="Find out more"
+                 class= "btn"
+                 />
+          </label>
+        </form>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
